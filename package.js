@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.5');
   api.use('mongo', 'server');
-  api.use('froatsnook:sleep', 'server');
+  api.use('froatsnook:sleep@1.1.0', 'server');
   api.addFiles('basecamp-http.js', 'server');
 
   if (api.export) {
